@@ -1,0 +1,256 @@
+*
+{
+
+margin: 0;
+padding: 0;
+font-family: Arial, Verdana, sans-serif;
+box-sizing: border-box;
+}
+ 
+
+/*  Para Mobile, en verde  */
+@media (min-width: 1px)
+{
+	
+
+	.contenedor {
+		text-align: center;
+
+	}
+
+	.menu1{
+	padding: 5px;
+	font-size: 1.75em;
+
+	}
+
+	.contenedor-food1 , .contenedor-food2, .contenedor-food3 { 
+		width: 90%;
+		margin: 2%x;
+		border: 3px solid gray;
+		display:inline-block;
+		background-color: #999999 ;
+		margin:2%;
+	}
+
+	.contenedor-titulo-food1, .contenedor-titulo-food2, .contenedor-titulo-food3 {
+	float:right;
+	width:100%;
+	padding: 0px;
+	}
+
+	.titulo-food1 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #D59898;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+	.titulo-food2 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #C14543;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	color: white;
+	font-size: 1.25em;
+	}
+
+	.titulo-food3 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #E5D198;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+
+	.contenido-food1, 	.contenido-food2, 	.contenido-food3{
+
+	padding:45px 15px 28px 15px;
+	}
+
+
+}
+
+
+/*  Para Tablet, en rojo  */
+@media (min-width: 768px)
+{
+
+
+	
+	.contenedor {
+		text-align: center;
+
+	}
+
+	.menu1{
+	padding: 20px;
+
+	}
+
+	.contenedor-food1  { 
+		width: 46%;
+		margin:2%;
+		border: 3px solid gray;
+		display:inline-block;
+		background-color: #999999 ;
+		float:left;
+
+	}
+
+	.contenedor-food2 { 
+		width: 46%;
+		margin: 2%;
+		border: 3px solid gray;
+		display:inline-block;
+		background-color: #999999 ;
+		float:right;
+	}
+
+
+	 .contenedor-food3 { 
+	 	margin:2%;
+		width: 96%;
+		border: 3px solid gray;
+		display:inline-block;
+		background-color: #999999 ;
+		float: none;
+	}
+	.contenedor-titulo-food1, .contenedor-titulo-food2, .contenedor-titulo-food3 {
+	float:right;
+	width:100%;
+	padding: 0px;
+	}
+
+	.titulo-food1 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #D59898;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+	.titulo-food2 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #C14543;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	color: white;
+	font-size: 1.25em;	
+	}
+
+	.titulo-food3 {
+	display:block;
+	width:5em;
+	float:right;
+	background-color: #E5D198;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+
+	.contenido-food1, 	.contenido-food2, 	.contenido-food3{
+
+	padding:45px 15px 28px 15px;
+
+	}
+
+
+}
+	
+
+
+/*  Para Desktop, en verde  */
+@media (min-width: 992px)
+{
+	
+	.contenedor {
+		text-align: center;
+		padding: 2%;
+
+	}
+
+	.menu1{
+	padding: 30px;
+
+	}
+
+	.contenedor-food1 , .contenedor-food2, .contenedor-food3 { 
+		width: 32%;
+		margin: 5px;
+		border: 3px solid gray;
+		display:inline-block;
+		background-color: #999999 ;
+	}
+
+	.contenedor-titulo-food1, .contenedor-titulo-food2, .contenedor-titulo-food3 {
+	float:right;
+	width:100%;
+	padding: 0px;
+	}
+
+	.titulo-food1 {
+	display:block;
+	width:8em;
+	float:right;
+	background-color: #D59898;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+	.titulo-food2 {
+	display:block;
+	width:8em;
+	float:right;
+	background-color: #C14543;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	color: white;
+	font-size: 1.25em;
+	}
+
+	.titulo-food3 {
+	display:block;
+	width:8em;
+	float:right;
+	background-color: #E5D198;
+	padding:5px;
+	border:gray solid ;
+	border-width: 0px 0px 3px 3px;
+	font-size: 1.25em;
+	}
+
+
+	.contenido-food1, 	.contenido-food2, 	.contenido-food3{
+
+	padding:45px 15px 28px 15px;
+
+	}
+
+
+
+
+}
+
